@@ -319,7 +319,7 @@ function kata14() {
     const sampleArraySquared = []
 
     for (let i = 0; i < sampleArrayDupe.length; i++) {
-        sampleArraySquared.push(Math.pow(sampleArrayDupe[i], 2))
+        sampleArraySquared.push(sampleArrayDupe[i] * sampleArrayDupe[i])
     }
 
     const kata14 = document.createElement('p')
